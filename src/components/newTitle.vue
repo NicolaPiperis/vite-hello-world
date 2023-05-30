@@ -11,8 +11,8 @@ export default {
 
 <style scoped>
 h1{
-    font-size: 30px;
-    font-weight: 600;
+    font-size: 50px;
+    font-weight: 800;
     color: brown;
 }
 </style>

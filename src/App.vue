@@ -1,7 +1,9 @@
 <script >
+import AppHero from './components/AppHero.vue';
 import newTitle from './components/newTitle.vue';
 export default {
   components: {
+    AppHero,
     newTitle
   }
 }
@@ -9,6 +11,7 @@ export default {
 
 <template>
   <div>
+    <AppHero/>
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
